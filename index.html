@@ -3,87 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
-
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Favicon -->
-    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Your Portfolio</title>
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Your CSS File -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- HEADER / NAVBAR -->
-    <header id="header">
-        <!-- Add your profile image -->
-        <img src="img/profile.jpg" alt="Your Name" class="profile-img">
-        <h1>Your Name</h1>
-        <p>Senior Data Scientist | AI Enthusiast</p>
-
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
+    
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Logo</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <!-- ABOUT SECTION -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Brief description about yourself. Specialized in AI, Machine Learning, NLP, etc.</p>
-        <img src="img/about.jpg" alt="About Me Image">
-    </section>
-
-    <!-- PROJECTS SECTION -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <!-- Each project card -->
-        <div class="project-card">
-            <img src="img/project1.png" alt="Project 1">
-            <h3>Project Title</h3>
-            <p>Short description of the project.</p>
-            <a href="#">View Project</a>
+    <!-- SECTION 1: HERO/HOME -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hero Section</h1>
+            <p>This is where your name and intro will go</p>
         </div>
     </section>
 
-    <!-- SKILLS SECTION -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>TensorFlow / PyTorch</li>
-            <li>Data Analysis</li>
-        </ul>
+    <!-- SECTION 2: ABOUT -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Section</h2>
+            <p>Your bio will go here</p>
+        </div>
     </section>
 
-    <!-- EDUCATION SECTION -->
-    <section id="education">
-        <h2>Education</h2>
-        <p>School / University | Degree | Years</p>
+    <!-- SECTION 3: SKILLS -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills Section</h2>
+            <p>Your skills with icons will go here</p>
+        </div>
     </section>
 
-    <!-- EXPERIENCE SECTION -->
-    <section id="experience">
-        <h2>Experience</h2>
-        <p>Job Title | Company | Years</p>
+    <!-- SECTION 4: PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects Section</h2>
+            <p>Your project cards will go here</p>
+        </div>
     </section>
 
-    <!-- CONTACT / RESUME SECTION -->
-    <section id="contact">
-        <h2>Contact / Resume</h2>
-        <p>Email: youremail@example.com</p>
-        <a href="img/resume.pdf" target="_blank">Download Resume</a>
+    <!-- SECTION 5: CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Section</h2>
+            <p>Contact info will go here</p>
+        </div>
     </section>
 
     <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2025 Your Name | Portfolio</p>
+    <footer class="footer">
+        <div class="container">
+            <p>Footer</p>
+        </div>
     </footer>
 
 </body>
